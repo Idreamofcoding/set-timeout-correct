@@ -1,0 +1,31 @@
+body {
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    width: 400px;
+    height: 200px;
+    background-color: lightslategray;
+    display: flex;
+    justify-content: center;
+    display: none;
+    position: relative;
+}
+
+.left {
+    width: 50%;
+    height: 100%;
+}
+
+.left img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.modal h2 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+}
